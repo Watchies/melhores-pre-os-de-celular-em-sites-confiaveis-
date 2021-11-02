@@ -2,6 +2,11 @@ body{
 background:red; 
 }
 
+.linkP{
+  font-size:30px;
+  color:black;
+}
+
 .conteinerPrincipal{
  margin-top:80px;
  background:#ffffff;
