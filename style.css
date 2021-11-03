@@ -1,5 +1,5 @@
 body{
-background:red; 
+ background:white;
 }
 
 .linkP{
@@ -22,7 +22,7 @@ background:red;
   background: white;
   border-radius: 20px;
   position:fixed;
-  margin-top: -4.5em;
+  margin-top: -9.1em;
   right: 0; 
 }
 
@@ -35,36 +35,63 @@ background:red;
 }
 
 .conteiner{
- background:white;
- color:red;
- font-size:30px
+ background:#2E9AFE;
+ color:white;
+ font-size:30px;
+  border-width: 3.5px;
+border-style: solid;
+border-color: black;
+  border-radius:15px;
 }
 
 .conteiner2 {
-  background:black;
+  background:#f2f2f2;
   margin-top:10px;
   border-radius:60px;
   padding:20px;
+border-width: 3.5px;
+border-style: solid;
+border-color: black;
 }
 
 .link{
   margin:10px;
   border-radius:60px;
   font-size:34px;
-  background:white;
-  padding:5px;
-  color:red;
-  
+  background:#2E9AFE;
+  padding:5px 10px;
+  color:white;
+  border-width: 3.5px;
+  border-style: solid;
+  border-color: black;
 }
 
 .dark{
- background:black;
+ background:#1c1c1c;
 }
 
 .dark .conteiner2 {
- background:red;
+ background:#424242;
+  border-style: solid;
+  border-color: #ffffff;
 }
 
 .dark .link{
-  color:black;
+  color:white;
+  border-style: solid;
+  border-color: #ffffff;
+  color:white;
+}
+
+.dark .conteinerPrincipal {
+   background:#1c1c1c;
+}
+
+.dark .linkP {
+color:white;
+}
+
+.dark .conteiner{
+  border-style: solid;
+  border-color: #ffffff;
 }
